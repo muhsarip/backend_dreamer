@@ -1,0 +1,44 @@
+table Product
+	productID
+	productCode
+	productName
+	productPrice
+	productDescription
+	kategoriID
+table Kategori 
+	kategoriID
+	kategoriNama
+table order
+	orderID
+	nomerorder
+	tanggal order
+	userID
+	harga
+table order detail
+	orderID
+	tanggalorder
+	productCode
+	productPrice
+	quantity
+	Totalharga
+table user
+	userID
+	username
+	pasword
+	clientID
+table client
+	clientID
+	firstname
+	lastname
+	phoneNumber
+	email
+	alamat
+	kota
+	kodepost
+cart
+	cardID
+	orderID
+administrator
+	adminID
+	namaAdmin
+	pasword
